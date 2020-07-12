@@ -10,14 +10,17 @@
 [[DemoController]()]
 3. Create HTML view pages 
 [[home.html]()]
-   - Add ```<html xmln:th="http://www.thymeleaf.org">``` to support thymeleaf expressions 
+   - Add ```<html xmln:th="http://www.thymeleaf.org">``` to support Thymeleaf expressions 
+   - Add ```<link rel="stylesheet" th:href="@{<path_from_resources_folder/url>}" /> to apply CSS style
+4. Apply CSS style
 
 ## Thymeleaf Expressions 
-- ```<p th:text="<text>"/>```
+- ```<p th:text="<text>" />```
 
 ## Notes/Tips
-- View pages are in ```/src/main/resource/templates```
-- Run as Java app
+- Run project as Java app
+- View pages in ```src/main/resource/templates```
+- Local CSS in ```src/main/resources/static``` (recommend add sub-directory for CSS file, like ```css```)
 
 
 
