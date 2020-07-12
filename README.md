@@ -11,11 +11,13 @@
 3. Create HTML view pages 
 [[home.html]()]
    - Add ```<html xmln:th="http://www.thymeleaf.org">``` to support Thymeleaf expressions 
-   - Add ```<link rel="stylesheet" th:href="@{<path_from_resources_folder/url>}" /> to apply CSS style
+   - Add ```<link rel="stylesheet" th:href="@{<path_from_resources_folder/url>}" />``` to apply CSS style
 4. Apply CSS style
 
 ## Thymeleaf Expressions 
+[[list-employees.html]()]
 - ```<p th:text="<text>" />```
+- ```<tr th:each="<tempVar> : ${<model>}">``` 
 
 ## Notes/Tips
 - Run project as Java app
