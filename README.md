@@ -12,7 +12,6 @@
 [[home.html]()]
    - Add ```<html xmln:th="http://www.thymeleaf.org">``` to support Thymeleaf expressions 
    - Add ```<link rel="stylesheet" th:href="@{<path_from_resources_folder/url>}" />``` to apply CSS style
-4. Apply CSS style
 
 ## Thymeleaf Expressions 
 [[list-employees.html]()]
@@ -25,7 +24,7 @@
 - Local CSS in ```src/main/resources/static``` (recommend creating sub-directory for CSS files, like ```css```)
 - Remote Bootstrap 
 [[URL](https://getbootstrap.com/docs/4.5/getting-started/introduction/#starter-template)]
-  - Copy meta and link tags
+  - Copy required meta and link tags
   - Wrap content inside ```<div class="container">```
 
 
