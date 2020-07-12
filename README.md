@@ -22,8 +22,11 @@
 ## Notes/Tips
 - Run project as Java app
 - View pages in ```src/main/resource/templates```
-- Local CSS in ```src/main/resources/static``` (recommend add sub-directory for CSS file, like ```css```)
-
+- Local CSS in ```src/main/resources/static``` (recommend creating sub-directory for CSS files, like ```css```)
+- Remote Bootstrap 
+[[URL](https://getbootstrap.com/docs/4.5/getting-started/introduction/#starter-template)]
+  - Copy meta and link tags
+  - Wrap content inside ```<div class="container">```
 
 
 
